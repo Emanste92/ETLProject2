@@ -2,7 +2,6 @@
 USE Colleges;
 
 CREATE TABLE Salaries(
-	id INT PRIMARY KEY,
     school_name TEXT, school_type TEXT, 
     median_salary_start INT, 
     median_salary_mid INT
@@ -10,7 +9,6 @@ CREATE TABLE Salaries(
     
 
 CREATE TABLE Grad_Rates(
-	id INT PRIMARY KEY,
     school_name TEXT, school_id INT, 
     state TEXT, 
     `level`TEXT,
@@ -26,13 +24,9 @@ CREATE TABLE Grad_Rates(
     );
     
 CREATE TABLE Demographics(
-	id INT PRIMARY KEY,
 	school_id INT, 
     gender TEXT, 
     race TEXT,
     cohort TEXT
     );
-
-
-SELECT  * FROM Demographics;
     
