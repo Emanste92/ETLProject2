@@ -1,5 +1,6 @@
 # no ipynb checkpoints for everything
 .ipynb_checkpoints/
+__pycache__/
 
 # my localhost pw
 ET_mysql_key.py
