@@ -1,0 +1,5 @@
+# no ipynb checkpoints for everything
+.ipynb_checkpoints/
+
+# my localhost pw
+ET_mysql_key.py
