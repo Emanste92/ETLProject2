@@ -51,6 +51,10 @@ ORDER BY median_salary_start DESC
 LIMIT 25;
 
 SELECT * FROM Colleges.graduation_vs_salaries
+ORDER BY grad_100_percentile DESC 
+LIMIT 25;
+
+SELECT * FROM Colleges.graduation_vs_salaries
 WHERE school_name = "San Jose State University";
 
 SELECT * FROM Colleges.graduation_vs_salaries
